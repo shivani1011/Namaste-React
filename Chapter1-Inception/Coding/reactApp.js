@@ -17,6 +17,6 @@ const createParent = React.createElement(
   [head1, head2]
 );
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const rootElement = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(createParent);
+rootElement.render(createParent);
