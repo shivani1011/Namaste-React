@@ -28,20 +28,20 @@
 
 // imported react & react-dom from node_module folder 
 import React from "react";
-import ReactDOM  from "react-dom/client";
+import ReactDOM from "react-dom/client";
 
-const heading = React.createElement("h1", 
-{
-    id: "title1",
-}, 
-"Heading from Parcel"
+const heading = React.createElement("h1",
+    {
+        id: "title1",
+    },
+    "Heading from Parcel"
 );
 
-const heading1 = React.createElement("h2", 
-{
-    id: "title2"
-}, 
-"This is Heading1"
+const heading1 = React.createElement("h2",
+    {
+        id: "title2"
+    },
+    "This is Heading1"
 );
 
 const container = React.createElement("div",

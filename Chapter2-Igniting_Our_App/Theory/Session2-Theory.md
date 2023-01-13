@@ -174,7 +174,7 @@ The value of this object can be an array of statistics (% coverage),last version
 > Example:- The ^1.2.4 will update all the future minor & patch updates, for example, ^1.2.4 will automatically change the dependency to 1.x.x if any updates occurs.
 
 
-## Ques16 : Read about Script types in html(MDN Docs).
+## Ques16 : Read about `Script types in html`(MDN Docs).
 > type attribute of the <script> tag indicates the type of script.Until HTML 4, type is a required attribute. The value of type can be any of the following :
 
 <script type="" src="app.js"></script>
