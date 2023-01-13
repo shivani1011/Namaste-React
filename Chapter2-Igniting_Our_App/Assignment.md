@@ -18,7 +18,7 @@ own words.
 - Why should I not modify `package-lock.json`?
 - What is `node_modules` ? Is it a good idea to push that on git?
 - What is the `dist` folder?
-- What is `browserlists`
+- What is `browserlists`? 
 - Read about dif bundlers: vite, webpack, parcel
 - Read about: ^ - caret and ~ - tilda
 - Read about Script types in html (MDN Docs)
