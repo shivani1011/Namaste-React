@@ -54,7 +54,8 @@ const container = React.createElement("div",
             { key: "About Us" },
             "About Us")
         ]
-    )]);
+    )]
+    );
 
 
 /* Using JSX : JSX is HTML like syntax.
