@@ -37,9 +37,12 @@ Syntax
 3. `<TitleComponent></TitleComponent>` : <TitleComponent /> and <TitleComponent></TitleComponent> are equivalent only when < TitleComponent /> has no child components. The opening and closing tags are created to include the child components.
 
 
-> Example : 
- <TitleComponent>
-     <FirstChildComponent />
-     <SecondChildComponent />
-     <ThirdChildComponent />
- </TitleComponent>
+### Example
+```
+<TitleComponent>
+    <FirstChildComponent />
+    <SecondChildComponent />
+    <ThirdChildComponent />
+</TitleComponent>
+
+```
