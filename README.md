@@ -2,7 +2,7 @@
 
 ## Welcome to my Journey with Learning React.. 🙂
 
-I am delighted to share my key Learning's from [Namaste React Live Course](https://learn.namastedev.com/courses/namaste-react-live) from Zero to Hero 🚀 conducted by [Akshay Saini](https://www.linkedin.com/in/akshaymarch7/).
+I am delighted to share my key Learnings from [Namaste React Live Course](https://learn.namastedev.com/courses/namaste-react-live) from Zero to Hero 🚀 conducted by [Akshay Saini](https://www.linkedin.com/in/akshaymarch7/).
 This repository will contain all the Notes, Assignments & Projects done during Live Class. I hope this'll help you to keep track of every single thing from such heavy and deep knowledge gathering sessions.
 
 ## 📕 [_Chapter 1 - Inception_](./Chapter1-Inception)
@@ -19,4 +19,4 @@ This repository will contain all the Notes, Assignments & Projects done during L
 -  👩‍💻 [_Live Project Link_](https://eloquent-piroshki-b69494.netlify.app/)
 
 
-## Happy Learnings !!
+## Happy Learning !!
