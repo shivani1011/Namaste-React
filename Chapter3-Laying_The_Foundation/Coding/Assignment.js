@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./Assignment.css";
-import log from "./logo.png";
 import userIcon from "./user1-icon.png";
 
 
@@ -106,7 +105,7 @@ const Header = () => {
                 </div>
                 <div className="center">
                     <input type="search" placeholder="Search..." name="search"></input>
-                    <button type="submit">
+                    <button type="submit">input
                         {/* <i class="fa fa-search"></i> */}
                     </button>
                 </div>
@@ -122,49 +121,3 @@ const Header = () => {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<Header />);
-
-
-
-
-
-/**
- * input {
-    width : 350px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-    background-color: white;
-    padding: 10px 10px 10px 10px;
-    border: 2px solid rgba(182, 161, 161, 0.61);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-
-input[type=text]:focus {
-    border: 3px solid rgba(0, 0, 0, 0.904);
-  }
-
-.center button {
-    background-color: rgba(245, 245, 245, 0.973); 
-    border: none;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-button:hover {
-    background-color: #25a7048e;
-    color: white;
-}
-
- * 
- * 
- * 
- */

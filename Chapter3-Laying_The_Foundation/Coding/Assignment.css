@@ -1,18 +1,18 @@
 * {
-    box-sizing: border-box;
-    margin : 0; 
-    padding : 0;  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(11, 11, 58, 0.952);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(11, 11, 58, 0.952);
 }
 
 .left {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .left img {
@@ -24,29 +24,32 @@
 }
 
 img:hover {
-  transform: scale(1.1);   
+  transform: scale(1.1);
 }
 
 .center {
-  color : #555;
-  padding : 2px;
-  border : 1px solid currentColor;
+  color: #555;
+  padding: 2px;
+  background-color: #f2f2f2;
+  /* border : 1px solid currentColor; */
   border-radius: 6px;
 }
 
 input[type="search"] {
-  border: none;
+  border: 1px solid #ccc;
+  ;
   background: transparent;
   margin: 0;
-  padding: 7px 8px;
-  font-size: 14px;
+  padding: 12px 20px;
+  width: 400px;
+  font-size: 16px;
   color: inherit;
   border: 1px solid transparent;
   border-radius: inherit;
 }
 
-input[type ="search"] ::placeholder {
-color: #bbb;
+input[type="search"]::placeholder {
+  color: #bbb;
 }
 
 button[type="submit"] {
@@ -74,46 +77,46 @@ input[type="search"]:focus {
 }
 
 .right {
-    margin-right: 20px;
-  }
+  margin-right: 20px;
+}
 
 .right img {
-    margin-top: 5px;
-    width:  60px;
-    height: 60px;
-    cursor: pointer;
-    border-radius: 50%;
+  margin-top: 5px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 770px) {
-    .center .input {
-      width: 200px;
-      transition: all 500ms ease;
-    }
+  .center .input {
+    width: 200px;
+    transition: all 500ms ease;
   }
-  @media screen and (max-width: 500px) {
-    .left {
-      margin-left: 5px;
-    }
-  
-    .left img {
-      margin: 10px 10px 0 10px;
-    }
-  
-    .right {
-      margin-right: 5px;
-    }
-  
-    .center .input {
-      width: 100px;
-      transition: all 500ms ease;
-    }
+}
+
+@media screen and (max-width: 500px) {
+  .left {
+    margin-left: 5px;
   }
-  
-  @media screen and (max-width: 340px) {
-    .center .input {
-      width: 70px;
-      transition: all 500ms ease;
-    }
+
+  .left img {
+    margin: 10px 10px 0 10px;
   }
-  
+
+  .right {
+    margin-right: 5px;
+  }
+
+  .center .input {
+    width: 100px;
+    transition: all 500ms ease;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .center .input {
+    width: 70px;
+    transition: all 500ms ease;
+  }
+}
