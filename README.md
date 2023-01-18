@@ -19,4 +19,4 @@ This repository will contain all the Notes, Assignments & Projects done during L
 -  👩‍💻 [_Live Project Link_](https://eloquent-piroshki-b69494.netlify.app/)
 
 
-## Happy Learning !!
+## Happy Learnings !!
