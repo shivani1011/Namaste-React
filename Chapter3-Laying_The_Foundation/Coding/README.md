@@ -147,6 +147,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Header />);
 ```
 
-## [Create a Header Component from scratch using Functional Component with JSX 🚀 Live Project App Link 😍](https://eloquent-piroshki-b69494.netlify.app/)
+## [Create a Header Component from scratch using Functional Component with JSX 🚀 Live Project App Link ](https://eloquent-piroshki-b69494.netlify.app/)
 
  
