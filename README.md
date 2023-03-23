@@ -19,13 +19,13 @@ This repository will contain all the Notes, Assignments & Projects done during L
 -  📍  [_Assignment_](./Chapter3-Laying_The_Foundation/Assignment.md)
 -  💡 [_Coding Assignment Solution_](./Chapter3-Laying_The_Foundation/Coding)
 -  💡 [_Theory Assignment Solution_](./Chapter3-Laying_The_Foundation/Theory)
--  👩‍💻 [_Live Project App Link_](https://eloquent-piroshki-b69494.netlify.app/)
+-  🚀 [_Live Project App Link_](https://eloquent-piroshki-b69494.netlify.app/)
 
 ## 📕 [_Chapter 4 - Talk is cheap, show me the code_]
 -  📍  [_Assignment_]
 -  💡 [_Coding Assignment Solution_]
 -  💡 [_Theory Assignment Solution_]
--  👩‍💻 [_FoodHub Live Project App Link_]
+-  🚀 [_FoodHub Live Project App Link_]
 
 
 ## Happy Learning !!
