@@ -6,17 +6,26 @@ I am delighted to share my key Learnings from [Namaste React Live Course](https:
 This repository will contain all the Notes, Assignments & Projects done during Live Class. I hope this'll help you to keep track of every single thing from such heavy and deep knowledge gathering sessions.
 
 ## 📕 [_Chapter 1 - Inception_](./Chapter1-Inception)
--  💡 [_Coding Assignment_](./Chapter1-Inception/Coding)
--  💡 [_Theory Assignment_](./Chapter1-Inception/Theory)
+-  📍  [_Assignment_](./Chapter1-Inception/Assignment.md)
+-  💡 [_Coding Assignment Solution_](./Chapter1-Inception/Coding)
+-  💡 [_Theory Assignment Solution_](./Chapter1-Inception/Theory)
 
 ## 📕 [_Chapter 2 - Igniting our App_](./Chapter2-Igniting_Our_App)
--  💡 [_Coding Assignment_](./Chapter2-Igniting_Our_App/Coding)
--  💡 [_Theory Assignment_](./Chapter2-Igniting_Our_App/Theory)
+-  📍  [_Assignment_](./Chapter2-Igniting_Our_App/Assignment.md)
+-  💡 [_Coding Assignment Solution_](./Chapter2-Igniting_Our_App/Coding)
+-  💡 [_Theory Assignment Solution_](./Chapter2-Igniting_Our_App/Theory)
 
 ## 📕 [_Chapter 3 - Laying the Foundation_](./Chapter3-Laying_The_Foundation)
--  💡 [_Coding Assignment_](./Chapter3-Laying_The_Foundation/Coding)
--  💡 [_Theory Assignment_](./Chapter3-Laying_The_Foundation/Theory)
--  👩‍💻 [_Live Project Link_](https://eloquent-piroshki-b69494.netlify.app/)
+-  📍  [_Assignment_](./Chapter3-Laying_The_Foundation/Assignment.md)
+-  💡 [_Coding Assignment Solution_](./Chapter3-Laying_The_Foundation/Coding)
+-  💡 [_Theory Assignment Solution_](./Chapter3-Laying_The_Foundation/Theory)
+-  👩‍💻 [_Live Project App Link_](https://eloquent-piroshki-b69494.netlify.app/)
+
+## 📕 [_Chapter 4 - Talk is cheap, show me the code_]
+-  📍  [_Assignment_]
+-  💡 [_Coding Assignment Solution_]
+-  💡 [_Theory Assignment Solution_]
+-  👩‍💻 [_FoodHub Live Project App Link_]
 
 
 ## Happy Learning !!
