@@ -22,9 +22,9 @@ This repository will contain all the Notes, Assignments & Projects done during L
 -  🚀 [_Live Project App Link_](https://eloquent-piroshki-b69494.netlify.app/)
 
 ## 📕 [_Chapter 4 - Talk is cheap, show me the code_](./Chapter4%20-%20Talk%20is%20Cheap%2Cshow%20me%20the%20code)
--  📍  [_Assignment_]
--  💡 [_Coding Assignment Solution_]
--  💡 [_Theory Assignment Solution_]
+-  📍  [_Assignment_](./Chapter4%20-%20Talk%20is%20Cheap%2Cshow%20me%20the%20code/Assignment.md)
+-  💡 [_Coding Assignment Solution_](./Chapter4%20-%20Talk%20is%20Cheap%2Cshow%20me%20the%20code/Coding)
+-  💡 [_Theory Assignment Solution_](./Chapter4%20-%20Talk%20is%20Cheap%2Cshow%20me%20the%20code/Theory)
 -  🚀 [_FoodHub Live Project App Link_]
 
 
