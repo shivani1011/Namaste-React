@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import FoodHubLogo from "../../assests/Foodhub-logo.png";
-import HomeLogo from "../../assests/Home-Icon.png";
-import AboutUs from "../../assests/About.png";
-import Contact from "../../assests/Contact.png";
-import Cart from "../../assests/Cart.png";
-import MainImg from "../../assests/Main-Img.png";
-import ContentImg from "../../assests/display-content-img.png";
-import FacebookLogo from "../../assests/facebookImg.png";
-import InstaLogo from "../../assests/instaImg.png";
-import TwitterLogo from "../../assests/twitterImg.png";
+import FoodHubLogo from "../../Assets/foodhub-logo.png";
+import Home from "../../Assets/home.png";
+import About from "../../Assets/about.png";
+import Contact from "../../Assets/contact.png";
+import Cart from "../../Assets/cart.png";
+import MainImg from "../../Assets/display-img.png";
+import ContentImg from "../../Assets/display-content-img.png";
+import FacebookLogo from "../../Assets/facebookImg.png";
+import InstaLogo from "../../Assets/instaImg.png";
+import TwitterLogo from "../../Assets/twitterImg.png";
 
 /** FoodHub :
  *    >Header
@@ -44,11 +44,11 @@ const NavItems = () => {
     <div className="nav-items">
       <ul>
         <li className="list-item">
-          <img className="nav-icon" alt="Home" src={HomeLogo}></img>
+          <img className="nav-icon" alt="Home" src={Home}></img>
           <p className="nav-label">Home</p>
         </li>
         <li className="list-item">
-          <img className="nav-icon" src={AboutUs} alt="About"></img>
+          <img className="nav-icon" src={About} alt="About"></img>
           <p className="nav-label">About</p>
         </li>
         <li className="list-item">
@@ -63,7 +63,6 @@ const NavItems = () => {
     </div>
   )
 }
-
 const SignInSignUp = () => (
   <div className="sign-in-sign-up">
     <button className="sign-in">Sign In</button>
@@ -107,7 +106,7 @@ const DisplaySection = () => {
     </div>
   )
 };
-
+//config driven UI
 // I will make my card data dynamic 
 const restaurantList = [
   {
@@ -423,7 +422,7 @@ const restaurantList = [
     "data": {
       "type": "F",
       "id": "634471",
-      "name": "Chaayos Chai+Snacks=Relax",
+      "name": "Chaayos",
       "uuid": "54d462d7-22d1-42a6-acd6-cb9a7aee3f04",
       "city": "4",
       "area": "Dwarka",
@@ -434,9 +433,7 @@ const restaurantList = [
         "Beverages",
         "Chaat",
         "Desserts",
-        "Home Food",
         "Italian",
-        "Maharashtrian",
         "Snacks",
         "Street Food",
         "Sweets"
@@ -2255,51 +2252,55 @@ const restaurantList = [
   }
 
 ]
-
-const RestaurantCard = ({ restaurant }) => {
-
+// So we props here which wraps up all the properties which was passed to the component as attributes
+const RestaurantCard = ({ name, cuisines, cloudinaryImageId, avgRating, slaString }) => {
+  // console.log(props) : restaurant as object 
   return (
     <div className="card">
       <img src={"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
-        restaurant.data?.cloudinaryImageId}></img>
-      <h2>{restaurant.data?.name}</h2>
-      <h3>{restaurant.data?.cuisines.join(", ")}</h3>
-      <h4>{restaurant.data?.avgRating}</h4>
-      <h5>{restaurant.data?.slaString}</h5>
-
-
-
-
-
-
-
+        cloudinaryImageId}></img> 
+      <h3 className="card-name">{name}</h3>
+      <h5 className="card-cuisines">{cuisines.join(", ")}</h5>
+      <span>
+        <h5> <i class="fa-solid fa-star"></i>
+          {avgRating}</h5>
+        <h5>{slaString}</h5>
+      </span>
     </div>
   )
 
 }
 
+// props = props means properties,so whenever I pass the property or data as an attribute in the component it is known as props.
+// RestaurantCard is like JS Functions we pass the arguments during function call & receive it as the  parameters 
 const Body = () => {
   return (
     <div className="body">
       <DisplaySection />
-      <div className="restaurant-body">
-        <RestaurantCard restaurant={restaurantList[0]} />
-        <RestaurantCard restaurant={restaurantList[1]} />
-        <RestaurantCard restaurant={restaurantList[2]} />
-        <RestaurantCard restaurant={restaurantList[3]} />
-        <RestaurantCard restaurant={restaurantList[4]} />
-        <RestaurantCard restaurant={restaurantList[5]} />
-        <RestaurantCard restaurant={restaurantList[6]} />
-        <RestaurantCard restaurant={restaurantList[7]} />
-        <RestaurantCard restaurant={restaurantList[8]} />
-        <RestaurantCard restaurant={restaurantList[9]} />
-        <RestaurantCard restaurant={restaurantList[10]} />
-        <RestaurantCard restaurant={restaurantList[11]} />
-        <RestaurantCard restaurant={restaurantList[12]} />
-        <RestaurantCard restaurant={restaurantList[13]} />
-        <RestaurantCard restaurant={restaurantList[14]} />
+      <div className="restaurant-list">
+       {/* Here I am making components separately for every restaurant card */}
+        {/* <RestaurantCard {...restaurantList[0].data} />
+        <RestaurantCard {...restaurantList[1].data} />
+        <RestaurantCard {...restaurantList[2].data} />
+        <RestaurantCard {...restaurantList[3].data} />
+        <RestaurantCard {...restaurantList[4].data} />
+        <RestaurantCard {...restaurantList[5].data} /> 
+        <RestaurantCard {...restaurantList[6].data} />
+        <RestaurantCard {...restaurantList[7].data} />
+        <RestaurantCard {...restaurantList[8].data} />
+        <RestaurantCard {...restaurantList[9].data} />
+        <RestaurantCard {...restaurantList[10].data} />
+        <RestaurantCard {...restaurantList[11].data} />
+        <RestaurantCard {...restaurantList[12].data} />
+        <RestaurantCard {...restaurantList[13].data} />
+        <RestaurantCard {...restaurantList[14].data} /> */}
 
-
+      {/* We can do the above code with map function for better & clean code  */}
+      {
+        restaurantList.map((restaurant) => {
+          return <RestaurantCard {...restaurant.data} key={restaurant.data.id} /> 
+        })
+      }
       </div>
 
     </div>
@@ -2338,9 +2339,14 @@ const Footer = () => {
 const AppLayout = () => {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer />
+      <Header />  {/* Logo, Navitems,
+                  SignInSignUp*/}
+      <Body />    {/* DisplaySection
+                            -DisplayContent-DisplayImg 
+                      RestaurantCard       
+                  */}
+      <Footer />  {/* Footer
+                        -DisplayFooter */}
     </>
   );
 }
