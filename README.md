@@ -27,7 +27,11 @@ This repository will contain all the Notes, Assignments & Projects done during L
 -  💡 [_Theory Assignment Solution_](./Chapter4%20-%20Talk%20is%20Cheap%2Cshow%20me%20the%20code/Theory/Session%204%20Theory.md)
 -  🚀 [_FoodHub Live Project App Link_]
 
-## 📕 [_Chapter 5 - Lets get Hooked!!_](./)
+## 📕 [_Chapter 5 - Lets get Hooked!!_](./https://github.com/shivani1011/Namaste-React/tree/master/Chapter5-Let's%20get%20Hooked!)
+-  📍  [_Assignment_](./Chapter5-Let's%20get%20Hooked!/Assignment.md)
+-  💡 [_Coding Assignment Solution_](./Chapter5-Let's%20get%20Hooked!/Coding)
+-  💡 [_Theory Assignment Solution_](./Chapter5-Let's%20get%20Hooked!/Theory/Session%205%20Theory.md)
+-  🚀 [_FoodHub Live Project App Link_]
 
 
 ## Happy Learning !!
