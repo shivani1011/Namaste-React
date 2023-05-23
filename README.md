@@ -27,5 +27,7 @@ This repository will contain all the Notes, Assignments & Projects done during L
 -  💡 [_Theory Assignment Solution_](./Chapter4%20-%20Talk%20is%20Cheap%2Cshow%20me%20the%20code/Theory/Session%204%20Theory.md)
 -  🚀 [_FoodHub Live Project App Link_]
 
+## 📕 [_Chapter 5 - Lets get Hooked!!_](./)
+
 
 ## Happy Learning !!
