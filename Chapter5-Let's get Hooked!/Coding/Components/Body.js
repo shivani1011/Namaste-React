@@ -34,7 +34,7 @@ const DisplaySection = () => {
 };
 
 const SearchBar = ({ updatedRestaurants, updatedSetRestaurants }) => {
-    // console.log(updatedRestaurants);
+    // console.log(updatedRestaurants); above we have done destructuring
     // const searchText = " KFC ";  normal Js variable
     const [searchText, setSearchText] = useState("");
 
