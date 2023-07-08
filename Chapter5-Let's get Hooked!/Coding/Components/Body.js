@@ -34,13 +34,13 @@ const DisplaySection = () => {
 };
 
 const SearchBar = ({ updatedRestaurants, updatedSetRestaurants }) => {
-
+    // console.log(updatedRestaurants);
     // const searchText = " KFC ";  normal Js variable
     const [searchText, setSearchText] = useState("");
 
     function filterData(searchText, updatedRestaurants) {
         const data = updatedRestaurants.filter((restaurant) => {
-            return restaurant.data.name.toLowerCase().includes(searchText.toLowerCase());
+            return restaurant.name.toLowerCase().includes(searchText.toLowerCase());
         })
         return data;
     }
